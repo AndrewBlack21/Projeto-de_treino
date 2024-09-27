@@ -1,102 +1,113 @@
-*{
-    margin: 0;
-    padding: 0;
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header h1{
-    padding: 10px;
-    margin: 10px;
-}
-
-section div select{
-    padding: 10px;
-    margin: 25px;
-   
-}
-
-h6,p{
-  color: #fff;
-}
-
-
-
-.justify-content-md-center{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap; 
-    flex-wrap: nowrap; 
-    margin-right: -15px;
-    margin-left: -15px;
-    justify-content: center;
-    padding: 15px;
-    
-}
-
-.seletor-para-algum-widget {
-    box-sizing: content-box;
-  }
-
-.collapse {
-    &:not(.show) {
-      display: none;
-    }
-  }
-  
-  .collapsing {
-    height: 0;
-    overflow: hidden;
-    @include transition($transition-collapse);
-  
-    &.collapse-horizontal {
-      width: 0;
-      height: auto;
-      @include transition($transition-collapse-width);
-    }
-  }
-
-body{
-  background: #1F232F
-}
-
-@media (min-width: 340px) and (max-width: 576px){
-  .justify-content-md-center {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    justify-content: center;
-    padding: 15px;
-}
-}
-
-.container-calculater {
-  background-color: white;
+body {
+  background: #1F232F;
+  font-family: 'Arial', sans-serif;
+  color: black;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header h1 {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  color: #00b4d8;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: linear-gradient(90deg, #00b4d8, #48cae4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Select Workout */
+section div select {
+  padding: 15px;
+  margin: 25px auto;
+  display: block;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  background-color: #292929;
+  color: #fff;
+  font-size: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Styling */
+h6, p {
+  color: black;
+  text-align: center;
+}
+
+/* Centered Layout */
+.justify-content-md-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+}
+
+/* Button Styling */
+button {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #008080;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #00b4d8;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Styling */
+.container-calculater {
+  background-color: #292929;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   max-width: 300px;
   text-align: center;
-  margin-top: 15px;
+  margin: 20px auto;
   overflow: hidden;
 }
 
 input {
   width: 100%;
-  padding: 10px;
-  margin: 10px 0;
+  padding: 12px;
+  margin: 15px 0;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: black;
 }
 
 button {
-  padding: 10px 20px;
+  padding: 12px;
   background-color: #4CAF50;
-  color: white;
+  color: black;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
+  font-size: 1rem;
 }
 
 button:hover {
@@ -107,9 +118,23 @@ button:hover {
   margin-top: 20px;
   font-size: 1.2em;
   font-weight: bold;
+  color: #00b4d8;
 }
 
-.imc-container {
-display: absolute;
+/* Media Queries for Responsiveness */
+@media (min-width: 340px) and (max-width: 576px) {
+  .justify-content-md-center {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 15px;
+  }
 
+  header h1 {
+      font-size: 1.8rem;
+  }
+
+  button {
+      font-size: 1rem;
+      padding: 10px;
+  }
 }
