@@ -2,7 +2,7 @@ const treinos = {
     1: {
         titulo: "Dia 1",
         descricao: "Treino focado em quadriceps",
-        imagem: "/imagens/quadriceps.jpg",
+        imagem: "imagens/quadriceps.jpg",
         exercicios: [
             "CADEIRA ABDUTORA 3X10 / 1x10 ",
             "ELEVAÇÕES PELVICAS 3X8 / 1x8 ",
@@ -18,7 +18,7 @@ const treinos = {
     2: {
         titulo: "Dia 2",
         descricao: "Treino de Tronco",
-        imagem: "/imagens/TRONCO.jpg",
+        imagem: "imagens/TRONCO.jpg",
         exercicios: [
             "SUPINO INCLINADO C BARRA OU HALTER 3X8",
             "PUXADOR ALTO COM TRIAGULO 3X8",
@@ -34,7 +34,7 @@ const treinos = {
     3: {
         titulo: "Dia 3",
         descricao: "Treino de Gluteos / Posteriores de coxa e abdomen",
-        imagem: "/imagens/gluteonscoxa.jpg",
+        imagem: "imagens/gluteonscoxa.jpg",
         exercicios: [
             "CADEIRA ADUTORA 3x10 / 1x12",
             "CADEIRA ABDUTORA 3x10 / 1x12",
