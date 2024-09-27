@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="Bootstrap 4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Treino do dia</title>
+  </head>
+
+  <body  class="container-center text-center">
+
+    <header class=" text-center row justify-content-md-center" >
+    
+        <div class="placeholder-glow" class="col">
+          <h1 class="text-info">Training day</h1>
+        </div>
+      
+    </header>
+
+    <section> 
+      <div class="text-center" class="col">
+    <select id="selectTreino" class="form-select" aria-label="Default select example" >
+      <option selected><b>Escolha seu treino</b></option>
+      <option value="1">Dia 1</option>
+      <option value="2">Dia 2</option>
+      <option value="3">Dia 3</option>
+    </select>
+      </div>
+    </section>
+
+    <!-- Sessao de treinos -->
+    <section class="row justify-content-md-center">
+      <div class="card" style="width: 18rem;" id="cardTreino">
+          <img class="card-img-top" id="imgTreino" src="/imagens/quadriceps.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+              <h5 class="card-title" id="tituloTreino">Segunda-feira</h5>
+              <p class="card-text" id="descricaoTreino">Treino focado em quadriceps</p>
+          </div>
+          <ul class="list-group list-group-flush" id="listaExercicios">
+              <!-- Os exercícios serão alterados dinamicamente aqui -->
+          </ul>
+      </div>
+
+      <!-- Navegação do treino -->
+      <nav >
+        <hr>
+      <div class="col">
+          
+              <!-- Inicio dos videos treino dia 1 -->
+        <button class="btn btn-outline-light" data-target="#collapse" data-toggle="collapse" class="btn btn-info my-2"><h2>Treino do Dia 1</h2></button>
+        <div class="collapse show" id="collapse">            
+          <hr>
+          <button class="btn btn-outline-light" data-target="#collapseInfo" data-toggle="collapse" class="btn btn-info my-2">Cadeira abdutora</button>
+          <div class="collapse show" id="collapseInfo">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Cadeira abdutora</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/_KKAAjhuFPA?si=gwMB3hMbdoI142tv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>         
+          
+          <button class="btn btn-outline-light" data-target="#collapseInfo1" data-toggle="collapse" class="btn btn-info my-2">Elevação Pelvica</button>
+          <div class="collapse show" id="collapseInfo1">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Elevação Pelvica</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/PUxseXckO0s?si=kOunxfotnS7WgTZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>
+          
+          <button class="btn btn-outline-light" data-target="#collapseInfo2" data-toggle="collapse" class="btn btn-info my-2">Agachamento Smith</button>
+          <div class="collapse show" id="collapseInfo2">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Agachamento Smith</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/iGWJj9D69zc?si=NfM_5HTYEUXo-d9r&amp;start=30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>
+          
+          <button class="btn btn-outline-light" data-target="#collapseInfo3" data-toggle="collapse" class="btn btn-info my-2">Agachamento Bulgaro</button>
+          <div class="collapse show" id="collapseInfo3">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Agachamento Bulgaro</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/mXyqTVjIJM4?si=YcKHScRQ65veD81j&amp;start=34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>     
+          
+          <section>
+            <button class="btn btn-outline-light" data-target="#collapseInfo4" data-toggle="collapse" class="btn btn-info my-2">LegPress</button>
+          <div class="collapse show" id="collapseInfo4">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">LegPress Grande Afastamento</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/78mCZPObzug?si=3ZBOYXH9rHq_zfyy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>
+
+          <button class="btn btn-outline-light" data-target="#collapseInfo5" data-toggle="collapse" class="btn btn-info my-2">Cadeira Extensora</button>
+          <div class="collapse show" id="collapseInfo5">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Cadeira Extensora</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/JJnyfrUJgf0?si=E0wdSYR0V-D665cB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>
+
+          <button class="btn btn-outline-light" data-target="#collapseInfo6" data-toggle="collapse" class="btn btn-info my-2">Cadeira Flexora</button>
+          <div class="collapse show" id="collapseInfo6">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Cadeira Flexora</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/4qwPt7XcDBs?si=n5nh86MBikJsjEJy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>
+
+          <button class="btn btn-outline-light" data-target="#collapseInfo7" data-toggle="collapse" class="btn btn-info my-2">Panturrilha sentado</button>
+          <div class="collapse show" id="collapseInfo7">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Panturrilha sentado</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/zHJE3HPEP84?si=lCM-mIcD_SJr1S6P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      </div>
+                    </div>
+              </div>
+          </div>
+
+          </section>
+        
+        </div> <!-- FIM Botao do treino dia 1  -->
+        
+         <!-- Inicio dos videos treino dia 2 -->
+        <section>
+        <button class="btn btn-outline-light" data-target="#collapse20" data-toggle="collapse" class="btn btn-info my-2"><h2>Treino do Dia 2</h2></button>
+        <div class="collapse show" id="collapse20">            
+          <hr>
+          <button class="btn btn-outline-light" data-target="#collapseInfo13" data-toggle="collapse" class="btn btn-info my-2">Supino inclinado Barra/Halter</button>
+          <div class="collapse show" id="collapseInfo13">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Supino inclinado Barra/Halter</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/_KKAAjhuFPA?si=gwMB3hMbdoI142tv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>         
+          
+          <button class="btn btn-outline-light" data-target="#collapseInfo11" data-toggle="collapse" class="btn btn-info my-2">Puxador alto com triangulo</button>
+          <div class="collapse show" id="collapseInfo11">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Puxador alto com triangulo</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/PUxseXckO0s?si=kOunxfotnS7WgTZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>
+          
+          <button class="btn btn-outline-light" data-target="#collapseInfo21" data-toggle="collapse" class="btn btn-info my-2">Remada Curvada Pronada</button>
+          <div class="collapse show" id="collapseInfo21">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Remada Curvada Pronada</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/iGWJj9D69zc?si=NfM_5HTYEUXo-d9r&amp;start=30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>
+          
+          <button class="btn btn-outline-light" data-target="#collapseInfo30" data-toggle="collapse" class="btn btn-info my-2">Remada unilateral</button>
+          <div class="collapse show" id="collapseInfo30">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Remada unilateral C/Halter ou Maquina</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/mXyqTVjIJM4?si=YcKHScRQ65veD81j&amp;start=34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>     
+
+             <!-- Inicio dos videos treino dia 2 -->
+          <section>
+            <button class="btn btn-outline-light" data-target="#collapseInfo40" data-toggle="collapse" class="btn btn-info my-2">Pulldown Corda</button>
+          <div class="collapse show" id="collapseInfo40">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Pulldown Corda em Pé</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/78mCZPObzug?si=3ZBOYXH9rHq_zfyy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>
+
+          <button class="btn btn-outline-light" data-target="#collapseInfo50" data-toggle="collapse" class="btn btn-info my-2">Rosca alternada c/ Halter</button>
+          <div class="collapse show" id="collapseInfo50">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Rosca alternada c/ Halter</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/JJnyfrUJgf0?si=E0wdSYR0V-D665cB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>
+
+          <button class="btn btn-outline-light" data-target="#collapseInfo60" data-toggle="collapse" class="btn btn-info my-2">Hiperextensao de troco</button>
+          <div class="collapse show" id="collapseInfo60">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Hiperextensao de troco no banco romano</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/4qwPt7XcDBs?si=n5nh86MBikJsjEJy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>
+
+          <button class="btn btn-outline-light" data-target="#collapseInfo70" data-toggle="collapse" class="btn btn-info my-2">Abdominal crunch</button>
+          <div class="collapse show" id="collapseInfo70">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Abdominal crunch cabo ajoelhado</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/zHJE3HPEP84?si=lCM-mIcD_SJr1S6P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      </div>
+                    </div>
+              </div>
+          </div>
+
+          </section>
+        
+        </div> <!-- Botao do treino dia 2  -->
+      </section><!-- fim da sessao do treino dia 2  -->
+
+      <!-- Inicio dos videos treino dia 3 -->
+      <section>
+        <button class="btn btn-outline-light" data-target="#collapse31" data-toggle="collapse" class="btn btn-info my-2"><h2>Treino do Dia 3</h2></button>
+        <div class="collapse show" id="collapse31">            
+          <hr>
+          <button class="btn btn-outline-light" data-target="#collapseInfo" data-toggle="collapse" class="btn btn-info my-2">Cadeira adutora</button>
+          <div class="collapse show" id="collapseInfo">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Cadeira adutora</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/_KKAAjhuFPA?si=gwMB3hMbdoI142tv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>         
+          
+          <button class="btn btn-outline-light" data-target="#collapseInfo12" data-toggle="collapse" class="btn btn-info my-2">Cadeira abdutora</button>
+          <div class="collapse show" id="collapseInfo12">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Cadeira abdutora</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/PUxseXckO0s?si=kOunxfotnS7WgTZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>
+          
+          <button class="btn btn-outline-light" data-target="#collapseInfo22" data-toggle="collapse" class="btn btn-info my-2">Mesa flexora</button>
+          <div class="collapse show" id="collapseInfo22">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Mesa flexora</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/iGWJj9D69zc?si=NfM_5HTYEUXo-d9r&amp;start=30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>
+          
+          <button class="btn btn-outline-light" data-target="#collapseInfo32" data-toggle="collapse" class="btn btn-info my-2">Afundo no smith ou livre</button>
+          <div class="collapse show" id="collapseInfo32">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Afundo no smith ou livre</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/mXyqTVjIJM4?si=YcKHScRQ65veD81j&amp;start=34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>     
+          
+          <section>
+            <button class="btn btn-outline-light" data-target="#collapseInfo42" data-toggle="collapse" class="btn btn-info my-2">Stiff no smith ou livre</button>
+          <div class="collapse show" id="collapseInfo42">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Stiff no smith ou livre</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/78mCZPObzug?si=3ZBOYXH9rHq_zfyy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>
+
+          <button class="btn btn-outline-light" data-target="#collapseInfo52" data-toggle="collapse" class="btn btn-info my-2">Panturrilha no leg press</button>
+          <div class="collapse show" id="collapseInfo52">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Panturrilha no leg press</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/JJnyfrUJgf0?si=E0wdSYR0V-D665cB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>
+
+          <button class="btn btn-outline-light" data-target="#collapseInfo62" data-toggle="collapse" class="btn btn-info my-2">Panturrilha em pé</button>
+          <div class="collapse show" id="collapseInfo62">
+              <div class="card card-body">
+                  <div class="row">
+                      <div class="col-lg-10">
+                          <h3 class="border-dark border-bottom">Panturrilha em pé</h3>
+                          <blockquote class="blockquote text-right">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/4qwPt7XcDBs?si=n5nh86MBikJsjEJy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </blockquote>
+                      </div>
+                    </div>
+              </div>
+          </div>
+
+          </section>
+        
+        </div> <!-- Botao do treino dia 3  -->
+      </section><!-- fim da sessao do treino dia 3  -->
+        
+      </nav> <!-- fim da navegação -->
+
+      
+      </div><!-- fim da area de treomp   -->
+
+      <!-- Calculadora -->
+       <div class="imc-container">
+        <div class="container-calculater">
+          <label for="height"> Altura (em metros):</label>
+            <input type="number" id="height" placeholder="Ex: 1.70" step="0.01">
+            <label for="weight"> Peso (em kg):</label>
+              <input type="number" id="weight" placeholder="Ex: 70">
+              <button onclick="calcularIMC()"> Calcular IMC </button>
+            
+            <div id="resultado"></div>
+          </div>
+        </div>
+      </div>  <!-- Fim da calculadora -->
+ 
+    </section> <!-- fim da area sessao  -->
+
+    <section>
+      <p>Artigos e Dicas de treino</p>
+    </section>
+
+  
+
+    
+  </section>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+     
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>
