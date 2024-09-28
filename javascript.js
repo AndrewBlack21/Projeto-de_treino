@@ -4,9 +4,9 @@ const treinos = {
         descricao: "Treino focado em quadriceps",
         imagem: "imagens/quadriceps.jpg",
         exercicios: [
-            "CADEIRA ABDUTORA 3X10 / 1x10 ",
-            "ELEVAÇÕES PELVICAS 3X8 / 1x8 ",
-            "AGACHAMENTO SMITH OU LIVRE EM GRANDE AFASTAMENTO 3X10 / 1x10",
+            "CADEIRA ABDUTORA 3X8 / 1x10 ",
+            "ELEVAÇÕES PELVICAS 3X8 / 1x10 ",
+            "AGACHAMENTO SMITH OU LIVRE EM GRANDE AFASTAMENTO 3X8 / 1x10",
             "AGACHAMENTO BULGARO NO SMITH OU LIVRE 3X10 / 1x8",
             "LEG PRESS GRANDE AFASTAMENTO 3X8 / 1x10",
             "CADEIRA EXTENSORA 3X10 / 1x12",
