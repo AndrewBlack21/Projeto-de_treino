@@ -40,7 +40,7 @@ body {
   -webkit-text-fill-color: transparent;
 } */
 
-/* Select Workout */
+/* Select treino */
 section div select {
   padding: 15px;
   margin: 25px auto;
@@ -54,14 +54,14 @@ section div select {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Text Styling */
+/* Estilo de texto */
 h6, p, li {
   color: black;
   text-align: center;
   font-weight: bold;
 }
 
-/* Centered Layout */
+/* centralizar  */
 .justify-content-md-center {
   display: flex;
   flex-wrap: wrap;
@@ -71,7 +71,7 @@ h6, p, li {
   margin: 20px auto;
 }
 
-/* Button Styling */
+/* Botao estilo */
 button {
   width: 100%;
   padding: 15px;
@@ -90,7 +90,7 @@ button:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Form Styling */
+/* calculadora */
 .container-calculater {
   background-color: #292929;
   padding: 20px;
@@ -156,7 +156,7 @@ button:hover {
   color: #00b4d8;
 }
 
-/* Media Queries for Responsiveness */
+/* Media Queries  responsivo */
 @media (min-width: 340px) and (max-width: 576px) {
   .justify-content-md-center {
       flex-wrap: wrap;
