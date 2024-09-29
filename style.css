@@ -105,7 +105,7 @@ button:hover {
 .container-treino{
   max-width: 300px;
   text-align: center;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 20px;
 }
 
@@ -173,4 +173,53 @@ button:hover {
       font-size: 1rem;
       padding: 10px;
   }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .justify-content-md-center {
+      flex-wrap: nowrap;
+      justify-content: center;
+      padding: 15px;
+      overflow: hidden;
+  }
+  .container-treino{
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+  }
+
+}
+
+/* Efeito cascata */
+
+.falling-images img{
+  width: 30px;
+  position: absolute;
+  top: -40px;
+  animation: fall linear infinite;
+  opacity: 0.9;
+}
+
+@keyframes fall{
+  0%{
+    transform: translateY(-100px);
+  }
+  100%{
+    transform: translateY(100vh);
+  }
+}
+
+img.img1 {
+  animation-duration: 7s;
+  left: 10%;
+}
+
+img.img2 {
+  animation-duration: 5s;
+  left: 30%;
+}
+
+img.img3 {
+  animation-duration: 8s;
+  left: 50%;
 }

@@ -105,3 +105,24 @@ function calcularIMC(){
 
     resultadoDiv.textContent = `Seu IMC é ${imc.toFixed(2)} (${classificacao})`;
 };
+
+// efeito cascata
+
+document.addEventListener("DOMContentLoaded", function(){
+    const fallingImagesContainer = document.querySelector('.falling-images');
+    const numImages = 8;
+
+    const images = [
+        '/imagens/ficha.png',
+        '/imagens/corda.png',
+        '/imagens/halter.png'
+    ];
+
+    for(let i = 0; i < numImages; i++){
+        const img = document.createElement('img');
+        img.src = images[ i % 3];
+        img.classList.add(`img${i + 1}`);
+        fallingImagesContainer.appendChild(img);
+    }
+});
+
