@@ -2,7 +2,7 @@ const treinos = {
     1: {
         titulo: "Dia 1",
         descricao: "Treino focado em quadriceps",
-        imagem: "imagens/quadriceps.jpg",
+        imagem: "imagens/quadriceps.gym.png",
         exercicios: [
             "CADEIRA ABDUTORA 3X8 / 1x10 ",
             "ELEVAÇÕES PELVICAS 3X8 / 1x10 ",
@@ -18,7 +18,7 @@ const treinos = {
     2: {
         titulo: "Dia 2",
         descricao: "Treino de Tronco",
-        imagem: "imagens/TRONCO.jpg",
+        imagem: "imagens/tronco.gym.jpg",
         exercicios: [
             "SUPINO INCLINADO C BARRA OU HALTER 3X8",
             "PUXADOR ALTO COM TRIAGULO 3X8",
@@ -34,7 +34,7 @@ const treinos = {
     3: {
         titulo: "Dia 3",
         descricao: "Treino de Gluteos / Posteriores de coxa e abdomen",
-        imagem: "imagens/gluteonscoxa.jpg",
+        imagem: "imagens/gluteon.jpg",
         exercicios: [
             "CADEIRA ADUTORA 3x10 / 1x12",
             "CADEIRA ABDUTORA 3x10 / 1x12",
@@ -70,18 +70,9 @@ document.getElementById("selectTreino").addEventListener("change", function() {
     }
 });
 
-// Collapse botoes
+// collapse 
 const collapseElementList = document.querySelectorAll('.collapse')
 const collapseList = [...collapseElementList].map(collapseEl => new bootstrap.Collapse(collapseEl))
-
-const bsCollapse = new bootstrap.Collapse('#myCollapse', {
-    toggle: false
-  })
-
-  const myCollapsible = document.getElementById('myCollapsible')
-myCollapsible.addEventListener('hidden.bs.collapse', event => {
-  // do something...
-})
 
 // Calculadora de IMC
 
@@ -113,4 +104,4 @@ function calcularIMC(){
     }
 
     resultadoDiv.textContent = `Seu IMC é ${imc.toFixed(2)} (${classificacao})`;
-}
+};
