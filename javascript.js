@@ -110,7 +110,7 @@ function calcularIMC(){
 
 document.addEventListener("DOMContentLoaded", function(){
     const fallingImagesContainer = document.querySelector('.falling-images');
-    const numImages = 8;
+    const numImages = 10;
 
     const images = [
         '/imagens/ficha.png',

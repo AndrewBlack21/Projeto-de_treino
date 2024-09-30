@@ -109,6 +109,11 @@ button:hover {
   padding: 20px;
 }
 
+.card, .card-body{
+  color: black;
+  
+}
+
 .train{
   font-size: 3.5em;
   height: 300;
