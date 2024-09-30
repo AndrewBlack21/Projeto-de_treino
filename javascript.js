@@ -113,9 +113,9 @@ document.addEventListener("DOMContentLoaded", function(){
     const numImages = 10;
 
     const images = [
-        '/imagens/ficha.png',
-        '/imagens/corda.png',
-        '/imagens/halter.png'
+        'imagens/ficha.png',
+        'imagens/corda.png',
+        'imagens/halter.png'
     ];
 
     for(let i = 0; i < numImages; i++){
